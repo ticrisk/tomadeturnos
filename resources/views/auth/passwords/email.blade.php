@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!-- Main Content -->
 @section('content')

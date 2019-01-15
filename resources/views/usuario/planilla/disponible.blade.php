@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 <?php
   
   $semana = array("","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");

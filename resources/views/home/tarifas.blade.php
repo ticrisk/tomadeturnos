@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- Tarifa Mensual Para Tomar Turnos Online - Empaques Supermercados - Propineros Universitarios')

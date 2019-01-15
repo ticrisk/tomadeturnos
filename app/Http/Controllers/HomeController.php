@@ -117,7 +117,7 @@ class HomeController extends Controller
     public function index()
     {
 
-
+        /*
         $cantLocales = Local::where('estado', 'Activo')->count();
 
 
@@ -193,6 +193,9 @@ class HomeController extends Controller
             ->with('memeLast', $memeLast)
             ->with('informativo', $informativo)
             ->with('existe', $existe);
+
+        */
+        return view('home-externo');
     }
 
 

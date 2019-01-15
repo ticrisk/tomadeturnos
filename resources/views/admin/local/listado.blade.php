@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 @section('content')
     <section>
@@ -18,8 +18,7 @@
 
 
 @section('js')
-
-
+    <script src="{{ asset('js/app.js') }}" defer></script><!-- Vue js -->
 @endsection
 
 

@@ -34,18 +34,18 @@
               <!--<li><a href="/">Casablanca</a></li>-->
 
               @if(auth()->guard()->guest())
-                @include('incluir.panel-principal')
+                @include('incluir/menu-externo/principal')
 
               @elseif(Auth::user()->rol == "Usuario")
                 @include('incluir/reloj')
-                @include('incluir/panel-usuario')
+                @include('incluir/menu-externo/usuario')
 
               @elseif(Auth::user()->rol == "Admin")
                 @include('incluir/reloj')
-                @include('incluir/panel-administrador')
+                @include('incluir/menu-externo/administrador')
 
               @else
-                @include('incluir/panel-principal')
+                @include('incluir/menu-externo/principal')
               @endif
 
             </ul>
@@ -109,6 +109,12 @@
   <div class="container">
 
     <div class="row">
+      <div class="col-sm-12 col-md-12 text-center">
+        <figure class="figure">
+          <img src="{{ asset('img/iconos/logo-calendario-menu.png') }}" alt="logo-nero" class="rounded w-50">
+        </figure>
+      </div>
+      {{--
       <div class="col-sm-12 col-md-5">
         <h4 class="footer-title">Sobre Nosotros</h4>
         <p>Somos una organización sin fines de lucro que presta servicios a los empaques universitarios
@@ -136,8 +142,9 @@
           <img src="{{ asset('img/iconos/logo-nero.png') }}" alt="logo-nero" class="rounded w-50">
         </figure>
       </div>
+      --}}
     </div>
-
+    {{--
     <div class="footer-bottom">
 
       <div class="footer-social">
@@ -150,7 +157,7 @@
       </div>
 
       <p>Copyright &copy; 2014 - {{ date('Y') }}. <a href="https://www.proyectonero.cl" target="_blank">Proyecto Nero</a>. All Rights Reserved.</p>
-    </div>
+    </div> --}}
   </div>
 </footer>
 

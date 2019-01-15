@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- Contacto - Página Para Tomar Turnos - Empaques Supermercados - Propineros Universitarios')

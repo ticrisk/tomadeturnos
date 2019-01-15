@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 
 @section('title', '- Supermercados Asociados - Empaques Universitarios - Propineros')

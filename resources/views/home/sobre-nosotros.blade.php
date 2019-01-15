@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- ¿Quiénes somos, qué buscamos y por qué surgió?  - Empaques Supermercados - Propineros Universitarios')

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Proyecto Nero</title>
+    <title>Toma de Turnos</title>
     
      <link rel="stylesheet" type="text/css" href="../public/css/estiloPdf.css">
   </head>
@@ -21,7 +21,7 @@
               </p>
           </td>
           <td class="col-logo">
-              <img src="../public/img/iconos/logo-nero-1024x1099.png" width="100" height="100" alt="logo-nero">
+              <img src="../public/img/logo-calendario-menu.png" width="70" height="70" alt="logo">
           </td>
       <tr>
   </table>

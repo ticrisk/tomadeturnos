@@ -21,7 +21,7 @@
                     </p>
                 </td>
                 <td class="col-logo">
-                    <img src="../public/img/iconos/logo-nero-1024x1099.png" width="100" height="100" alt="logo-nero">
+                    <img src="../public/img/logo-calendario-menu.png" width="70" height="70" alt="logo">
                 </td>
             <tr>
         </table>

@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 @section('content')
 
@@ -171,6 +171,7 @@
 @section('js')
     {!! Html::script('js/dropdown.js') !!}
 
+
     <script>
         $("#avatar").change(function () {
             var fileExtension = ['jpeg', 'jpg', 'png', 'gif'];
@@ -179,6 +180,8 @@
             }
         });
     </script>
+
+
 
     <script type="text/javascript">
         $('#avatar').bind('change', function () {

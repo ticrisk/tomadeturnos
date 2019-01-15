@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 @section('title', '- Trabajar de Empaque en Supermercado - Propineros Universitarios')
 @section('description', 'Postulaciones para trabajar de empaque en los supermercados. Busca trabajo como empaque universitario.')

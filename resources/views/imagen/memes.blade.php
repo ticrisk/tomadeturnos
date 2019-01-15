@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- Memes Proyecto Nero - Plataforma Para Tomar Turnos On-line - Empaques Supermercados - Propineros Universitarios - ')

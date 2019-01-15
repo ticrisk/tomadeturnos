@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- Registarme en la Plataforma Para la Toma de Turnos On-line')

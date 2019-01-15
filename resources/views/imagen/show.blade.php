@@ -1,4 +1,4 @@
-@extends('layouts.global-nero')
+@extends('layouts.global-externo')
 
 <!--MetaTags html Basic-->
 @section('title', '- '.$imagen->titulo.' - Imagen Meme Frase Empaques Propineros Supermercado - ')

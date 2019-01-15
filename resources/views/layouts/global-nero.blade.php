@@ -178,7 +178,7 @@
 <script src="{{ asset('plugins/jquery/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ asset('plugins/popper/popper.min.js') }}"></script>
 <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/app.js') }}" defer></script><!-- Vue js -->
+
 
 <!-- plugins js -->
 <script src="{{ asset('plugins/lightbox/lightbox.js') }}"></script>
