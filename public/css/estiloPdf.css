@@ -1,0 +1,140 @@
+/*------------------------------         Tabla PDF --------------------------------------------*/
+	/* #57ABB8  = azul
+		#FF8400   = naranjo
+
+		#82FA58  = verdee
+	*/
+
+tr.border_bottom td {
+  border-bottom:0.1pt solid black;
+}
+
+.tabla-pdf{
+	width: 100%;
+	border: 2px solid #5a76b2;/* #FF8400 */
+	/*page-break-before: avoid;*/
+}
+
+.tabla-pdf2{
+	width: 100%;
+	border: 2px solid #5a76b2;
+	page-break-before: always;
+}
+
+.col-datos-planillas{
+	width:80%;
+}
+
+.col-logo{
+	width:20%;
+}
+
+.col-info{
+	/*width:15%;*/
+}
+.col-punto{
+	/*width:1%;*/
+}
+.col-respuesta{
+	/*width:20%;*/
+}
+/*
+.columna-logo-pdf{
+	border: 1px solid;
+	border-color: #57ABB8;
+
+	width:30%;
+}
+*/
+
+.fila-titulo{
+	background-color: #d2def9 ;/* b3c7f1 */
+}
+
+
+.col-titulo{
+	border: 1px solid;
+	border-color: #57ABB8;
+}
+/*
+.col-titulo-id{
+	border: 1px solid;
+	border-color: #57ABB8;
+	width:5%;
+}
+*/
+.col-titulo-turno{
+	border: 1px solid;
+	border-color: #57ABB8;
+	width:23%;
+}
+
+.col-titulo-nombre{
+	border: 1px solid;
+	border-color: #57ABB8;
+	width:37%;
+}
+
+
+.col-titulo-observacion{
+	border: 1px solid;
+	border-color: #57ABB8;
+	width:40%;
+}
+
+
+.cont-credencial{
+	
+	width: 300px;
+	height: 200px;
+	
+}
+
+.nom{
+	font-size: 23px;
+	font-weight:bold;
+	text-align: center;
+}
+
+.rol{
+	font-size: 17px;
+	text-align: center;
+}
+
+.dir{
+	font-size: 15px;
+	font-weight:bold;
+	text-align: center;
+}
+/*
+.id{
+	font-size: 10px;
+	text-align:right;
+}
+*/
+
+/*  7 columns bootstrap-4 */
+
+@media (min-width: 768px) {
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1  {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1 {
+		width: 14.285714285714285714285714285714%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.seven-cols .col-md-1,
+	.seven-cols .col-sm-1,
+	.seven-cols .col-lg-1 {
+		width: 14.285714285714285714285714285714%;
+	}
+}
